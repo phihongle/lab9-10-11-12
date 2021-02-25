@@ -1,0 +1,120 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+#page{
+ max-width: 1000px;
+ margin: auto;
+text-align: center;
+}
+
+#page>header{
+ background-image:  url('Hinh-1-50.jpg');
+ background-size: 100% 100%;
+ height: 0px;
+ padding-bottom: 35%;
+}
+
+#page>nav{
+ line-height: 20px;
+ background-color: orangered; 
+}
+
+section{
+ width: 100%;
+}
+
+#page>article{ 
+ background-color: white;
+ width:  75%;
+ float: left; 
+}
+
+#page>aside{
+ background-color:white;
+ width: 25%;
+ float: right; 
+}
+
+#page>footer{
+ clear:both;
+ border-top: 5px double purple;
+ background-color: orangered;
+ text-align: center;
+}
+.col-25{
+  width: 25%;
+  float: left;}
+.prod{
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  position: relative;}
+.prod>.name{
+  font-variant: small-caps;
+  color: orangered;}
+.prod>.image{
+  max-width: 98%;
+  height: 200px;
+  margin-bottom: 10px;  
+  }
+.prod>.price{
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  font-family: Impact;
+  font-size: 25px;
+  color: orange;}
+.prod>.icon{
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 25px;   }
+.prod>.new-icon{
+  position: absolute;
+  top: 0px;
+  right: 0px;    }
+  
+  #page>a:hover{
+  Position:relative;
+  color: pink;
+  }
+  .top-right{
+   Position:absolute;
+  Top:0px;
+  right: 290px;
+  Border-bottom-left-radius: 1000px;
+  size: 30px;
+ 
+  }
+  .top-right>a:hover{
+    color: yellow;
+  }
+  .company-info{
+  Bottom:100px;
+  Left:100px;
+  }
+  .company-info{
+    Bottom:100px;
+    Left:100px;
+    }
+    .info{
+        color:white;
+        text-shadow: 0 0 30px orangered;
+        font-size: x-large;
+        font-weight: 300;
+        position: absolute;
+        left: 300px;
+        top: 150px;  
+        font-variant:small-caps; 
+        font-size: 50px;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        line-height: 5px;   
+        text-decoration: yellow;
+        bottom: 10px;
+        .strong
+    
+        

@@ -1,0 +1,122 @@
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+    height: auto;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+
+.vmenu{
+    padding:0px;
+    margin:5px;
+    list-style:none;
+    border-radius:3px;
+    box-shadow:0 0 2px gray;
+    right: 200px;
+   }
+   .vmenu>li>a{
+       background: url('hinhtron.jpg') no-repeat 10px center;
+       display: block;
+       border-bottom: 1px dotted orangered;
+       color:  orangered;
+       font-variant: small-caps;
+       text-decoration: none;
+       padding: 8px 5px 8px 30px ;
+      }
+      .vmenu>li>a:hover{
+       background: url('tich.jpg') no-repeat left center ;
+          font-weight: bold ;
+          color: red; 
+      }
+
+
+    table{
+        border: 1px solid green;
+        border-collapse: collapse;
+    }
+th,td{
+    border: 1px solid green;
+}
+h2{text-align: left;}
+
+tr:first-child{
+    background-color: orangered;}
+tr:nth-child(2){background-color: orangered;}
+tr:nth-child(3){
+    background-color: lightgray;
+}
+tr:nth-child(5){
+    background-color: lightgray;
+}
+tr:nth-child(7){
+    background-color: lightgray;
+}
+tr:nth-child(9){
+    background-color: lightgray;
+}
+tr:nth-child(11){
+    background-color: lightgray;
+}
+
+.tin{
+float: left;
+width: 30%;
+margin: 5px;
+clear: both;}
+h4{ color: blue;
+    float:right;
+    width: 65%;
+    margin: 0px;}
+p{
+    margin: 0px;
+    float: right;
+    width: 65%;
+}
